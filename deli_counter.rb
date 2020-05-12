@@ -30,5 +30,6 @@ end
 
 def now_serving(katz_deli)
   if katz_deli == 0
-     puts "The line is empty."  
+     puts "The line is empty." 
+   end
 end
