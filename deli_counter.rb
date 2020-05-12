@@ -19,7 +19,6 @@ end
 def take_a_number(katz_deli, name)
   if katz_deli.size == 0
     katz_deli.push(name)
-    katz_deli.join(" ")
     puts "Welcome, #{name}. You are number 1 in line."
     
   else katz_deli.size >1
