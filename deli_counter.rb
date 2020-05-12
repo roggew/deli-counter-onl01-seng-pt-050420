@@ -23,7 +23,7 @@ def take_a_number(katz_deli, name)
     
   else katz_deli.size >1
     katz_deli.push(name)
-    puts "Welcome, #{name}. You are #{katz_deli.size} in line."
+    puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
   end
   
 end
