@@ -23,7 +23,6 @@ def take_a_number(katz_deli, name)
     puts "Welcome, #{name}. You are number 1 in line."
     
   else katz_deli.size >1
-    katz_deli.push("#{name}")
     katz_deli.map.with_index(1){|patrons, i| puts "Welcome, #{patrons}. You are number #{i} in line"}
     katz_deli.join(" ")
   end
